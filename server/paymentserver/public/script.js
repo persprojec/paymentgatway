@@ -16,7 +16,7 @@
   const loader        = document.getElementById('loader');
   const container     = document.querySelector('.container');
 
-  const clientSocket = io('http://45.41.205.23:3000');
+  const clientSocket = io('http://45.41.206.59:3000');
 
   let poller, timerInterval;
   let remainingSeconds = 300;

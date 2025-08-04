@@ -1,0 +1,13 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# Generated. Do not edit.
+
+.freecharge.in	FALSE	/	TRUE	1757443379	app_fc	uE7hVQspD47b02A-fZuobFo4AGC_1lbWttC1GWp93SuYZ1Yse4CQ64nRu1LTfe8RA5Ni1MKqxPA1BC3gXu5cKRh2W5A6DgM1kXfc0bNoypT9n4MDLZ3DgNcsSyXE9vj4
+.freecharge.in	FALSE	/	FALSE	0	dtCookie	v_4_srv_7_sn_1A8410B241FFAD6E0D1958215BA80BF6_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1
+.freecharge.in	FALSE	/	FALSE	0	moe_uuid	d71f08d6-8b4c-4727-9c05-02b9291a5e5a
+.freecharge.in	FALSE	/	FALSE	1753722098	_ga	GA1.1.978291916.1752259382
+.freecharge.in	FALSE	/	TRUE	1753722099	COOKIE_SHARING	%7B%22actualValue%22%3Afalse%2C%22MOE_DATA_TYPE%22%3A%22boolean%22%7D
+.freecharge.in	FALSE	/	FALSE	0	dtCookie9a3l9hb7	v_4_srv_8_sn_C9C561A49F5F6C4AF409854DFAB447D8_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1
+.freecharge.in	FALSE	/	FALSE	0	AMCVS_31C6097459DDBEB40A495C46%40AdobeOrg	1
+.freecharge.in	FALSE	/	FALSE	0	s_sq	jasper-freecharge-prod%3D%2526c.%2526a.%2526activitymap.%2526page%253Dhttps%25253A%25252F%25252Fsupport.freecharge.in%25252F%2526link%253DCustomer%252520Support%2526region%253D__next%2526.activitymap%2526.a%2526.c
+.freecharge.in	FALSE	/	FALSE	1753722098	_ga_Q9NVXVJCL0	GS2.1.s1753117298$o13$g0$t1753117298$j60$l1$h424793774

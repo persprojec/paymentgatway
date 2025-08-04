@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Test Payment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container fade-in">
+    <h1 class="title">Payment Test</h1>
+
+    <div class="input-group">
+      <label for="amountInput">Enter amount (₹):</label>
+      <input id="amountInput" type="number" placeholder="For testing enter 1" />
+    </div>
+
+    <button id="payBtn" class="btn pulse">Pay</button>
+
+    <div id="timerSection" class="timer-group hidden">
+      <span class="timer-label">Session Timer:</span>
+      <span id="timer" class="timer-value">05:00</span>
+    </div>
+
+    <div id="actionButtons" class="action-group hidden">
+      <button id="cancelBtn" class="btn cancel">Cancel</button>
+    </div>
+
+    <p id="status" class="status-text hidden"></p>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

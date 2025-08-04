@@ -1,0 +1,102 @@
+/* Layout */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef2f5;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 12px 36px rgba(0,0,0,0.12);
+    width: 320px;
+    text-align: center;
+  }
+  .title {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Input */
+  .input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  .input-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    color: #555;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Hide native number-input spin arrows */
+  /* Chrome, Safari, Edge, Opera */
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  /* Buttons */
+  .btn {
+    background: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+  }
+  .btn:hover { background: #0059c1; }
+  .btn:active { transform: scale(0.97); }
+  .btn.cancel {
+    background: #e00;
+  }
+  .btn.cancel:hover {
+    background: #c00;
+  }
+  
+  /* Timer & Status */
+  .hidden { display: none; }
+  .timer-group {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  .timer-label { font-weight: bold; }
+  .timer-value { font-family: 'Courier New', monospace; }
+  .action-group { margin-top: 1rem; }
+  .status-text {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes pulse {
+    0%,100% { transform: scale(1); }
+    50%      { transform: scale(1.05); }
+  }
+  .fade-in { animation: fadeIn 0.5s ease-out; }
+  .pulse   { animation: pulse 2s infinite; }
+  

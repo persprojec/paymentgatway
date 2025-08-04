@@ -1,4 +1,4 @@
-const socket       = io('http://45.41.205.23:3000');
+const socket       = io('http://45.41.206.59:3000');
 const amountInput  = document.getElementById('amountInput');
 const payBtn       = document.getElementById('payBtn');
 const cancelBtn    = document.getElementById('cancelBtn');
@@ -117,7 +117,7 @@ socket.on('payment-comment', comment => {
   currentComment = comment;
   socket.emit('join-session', comment);
   saveSession(comment);
-  window.open(`http://45.41.205.23:3001/${comment}`, '_blank');
+  window.open(`http://45.41.206.59:3001/${comment}`, '_blank');
 
   statusP.textContent = 'Waiting for payment…';
   show(statusP);
